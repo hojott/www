@@ -2,7 +2,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://choosealicense.com/licenses/mit/)
 
-This is where the source code to my website is stored. Website will be [www.kussi.fi](https://www.kussi.fi). Technologies include yarn, Vite, Node, React, Ts and SWC.
+This is where the source code to my website is stored. Website will be [www.kussi.fi](https://www.kussi.fi).
+
+## Technologies
+
+Frontend tech includes React, Typescript, yarn, Vite and SWC.
+
+Backend tech includes Python, venv and FastAPI.
 
 ## Contributing
 
