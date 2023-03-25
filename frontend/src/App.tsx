@@ -3,11 +3,13 @@ import Space from './Space'
 
 function App() {
 
-  Space()
+  const space = new Space()
+
+  space.animate()
 
   return (
     <div className="App">
-      Hello!!
+    	Hello!!
     </div>
   )
 }
