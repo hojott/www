@@ -69,10 +69,16 @@ class Space {
             this.earth.rotation.y += 0.08
             this.earth.rotation.z += 0.02
 	
-	    //this.moon.velocity( 0.1, [1, 0, 0] )
-	    const position = this.moon.getWorldPosition( new THREE.Vector3 );
-	    this.moon.position.setX( position[0] );
-	
+	    let orbitRadius = 20; // for example
+	    let date;
+
+	    date = Date.now() * 0.001;
+	    this.moon.position.set(
+	      Math.cos(date) * orbitRadius,
+	      0,
+	      Math.sin(date) * orbitRadius
+            );
+
             this.controls.update();
 
             this.renderer.render( this.scene, this.camera );
