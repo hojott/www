@@ -13,21 +13,7 @@ RUN npm install
 # Copy the rest of the application files
 COPY . .
 
+EXPOSE 5137
 
 # Define the command to run your app
-CMD ["npm", "build"]
-
-# Step 2: Set up Nginx server
-FROM nginx:alpine
-
-# Copy built Vite project from the previous stage
-COPY --from=builder /app/dist /usr/share/nginx/html
-
-# Copy Nginx configuration file
-COPY nginx.conf /etc/nginx/nginx.conf
-
-# Expose port 80
-EXPOSE 80
-
-# Command to run Nginx in the foreground
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["npm", "run", "prod"]
