@@ -59,6 +59,10 @@ h1 {
   padding: 2em;
 }
 
+.dont-read-the-docs {
+  color: #a6a6a6;
+}
+
 .read-the-docs {
   color: #888;
 }
