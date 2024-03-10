@@ -18,7 +18,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </a>
 
     <p class="read-the-docs">
-    Also please see my <a href=https://linkedin.com/in/kussi> linkedin </a> and <a href=github.com/hojott/> github</a>.
+    Also please see my <a href=https://linkedin.com/in/kussi> linkedin </a> and <a href=https://github.com/hojott/> github</a>.
     </p>
   </div>
 `
