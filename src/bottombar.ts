@@ -11,6 +11,10 @@ export default HTMLDivCreator('#bbar', `
     <div class="ads">
       <img src=/stoplivarhate.gif />
       <img src=/ruohonleikkaus.gif />
+      <img src=/adspace.png />
+      <img src=/adspace.png />
+      <img src=/adspace.png />
+      <img src=/adspace.png />
     </div>
   </div>
 `)
