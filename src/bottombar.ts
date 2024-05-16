@@ -9,12 +9,12 @@ export default HTMLDivCreator('#bbar', `
       (and even if you don't I can't do a lot about it)
     </p>
     <div class="ads">
-      <img src=/stoplivarhate.gif />
-      <img src=/ruohonleikkaus.gif />
-      <img src=/adspace.png />
-      <img src=/adspace.png />
-      <img src=/adspace.png />
-      <img src=/adspace.png />
+      <img class=ad src=/stoplivarhate.gif />
+      <img class=ad src=/ruohonleikkaus.gif />
+      <img class=ad src=/adspace.png />
+      <img class=ad src=/adspace.png />
+      <img class=ad src=/adspace.png />
+      <img class=ad src=/adspace.png />
     </div>
   </div>
 `)
