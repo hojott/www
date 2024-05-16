@@ -1,0 +1,88 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: end;
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  max-width: 1280px;
+  padding: 2rem;
+  padding-bottom: 0px; /* 47*4  */
+  text-align: left;
+}
+
+#bbar {
+  position: fixed;
+  margin-top: auto;
+  text-align: left;
+}
+
+.ads {
+  display: block;
+  background: purple;
+  width: 100vw;
+  min-width: 320px; /* ad width */
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+p {
+  color: #a6a6a6;
+}
+
+.smallprint {
+  color: #888;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+.ad { /* ads are 320x46px */
+  float: left;
+  margin: auto;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  p {
+    color: #888;
+  }
+  .smallprint {
+    color: #a6a6a6;
+  }
+}

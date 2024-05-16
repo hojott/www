@@ -1,6 +1,16 @@
-# kussifi
-https://kussi.fi
-Currently not in production
+# www.kussi.fi
 
-Technologies include Yarn, Vite, Node, React, Ts and SWC
-Licensed MIT
+My website, using just vite and typescript on top of html.
+
+# Running
+
+Can be run with just
+
+```
+npm install
+npm run dev
+```
+
+# License
+
+Advertisements under public/ads have all rights reserved. Everything else is licensed under MIT (copy provided with source code).
