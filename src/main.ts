@@ -1,2 +1,2 @@
-import './app.ts'
-import './bottombar.ts'
+import "./app.ts";
+import "./bottombar.ts";
