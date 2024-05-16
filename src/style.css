@@ -16,30 +16,29 @@
 body {
   margin: 0;
   display: flex;
-  place-items: start;
-  min-width: 320px;
-  min-height: 100vh;
+  place-items: end;
 }
 
 #app {
+  height: 100vh;
+  display: flex;
   max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
+  padding-bottom: 0px; /* 47*4  */
   text-align: left;
 }
 
 #bbar {
-  position: absolute;
-  bottom: 0px;
-  margin: 0 auto;
+  position: fixed;
+  margin-top: auto;
   text-align: left;
 }
 
 .ads {
-  display: flex;
+  display: block;
   background: purple;
   width: 100vw;
-  min-width: 640px;
+  min-width: 320px; /* ad width */
   flex-flow: row wrap;
   justify-content: flex-end;
 }
@@ -67,7 +66,7 @@ a:hover {
   color: #535bf2;
 }
 
-.ad {
+.ad { /* ads are 320x46px */
   float: left;
   margin: auto;
 }
