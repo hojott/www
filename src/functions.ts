@@ -16,10 +16,7 @@ export const paddingAdjustor = (
       }
     };
 
-    // Adjust padding on initial load
     adjustPadding();
-
-    // Adjust padding if the window is resized
     window.addEventListener("resize", adjustPadding);
   });
 };
