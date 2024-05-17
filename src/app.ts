@@ -1,4 +1,4 @@
-import HTMLDivCreator from "./functions.ts";
+import { HTMLDivCreator } from "./functions.ts";
 import "./style.css";
 
 export default HTMLDivCreator(
