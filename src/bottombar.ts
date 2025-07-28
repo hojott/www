@@ -1,8 +1,8 @@
 import { HTMLDivCreator } from "./functions.ts";
 import "./style.css";
 
-export default HTMLDivCreator(
-  "#bbar",
+const bottombar = HTMLDivCreator(
+  "#bottombar",
   `
   <div>
     <p class="smallprint">
@@ -21,3 +21,5 @@ export default HTMLDivCreator(
   </div>
 `
 );
+
+export default bottombar;

@@ -19,14 +19,14 @@ body {
   place-items: end;
 }
 
-#app {
+#frontpage {
   display: flex;
   max-width: 1280px;
   padding: 2rem; /* bottom adjusted dynamically */
   text-align: left;
 }
 
-#bbar {
+#bottombar {
   position: fixed;
   bottom: 0;
   text-align: left;

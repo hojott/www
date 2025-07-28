@@ -1,6 +1,18 @@
-export const HTMLDivCreator = (name: string, content: string) => {
+export class HTMLPage {
+  public constructor(public id: string, public applyContent: (() => void)){} 
+}
+
+const HTMLDivApplier = (name: string, content: string) => {
   document.querySelector<HTMLDivElement>(name)!.innerHTML = content;
 };
+
+export const HTMLDivCreator = (id: string, content: string) => {
+  return new HTMLPage(
+    id,
+    () => HTMLDivApplier(id, content)
+  )
+}
+
 
 export const paddingAdjustor = (
   dynamicPanel: string,

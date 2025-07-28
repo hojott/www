@@ -1,8 +1,8 @@
 import { HTMLDivCreator } from "./functions.ts";
 import "./style.css";
 
-export default HTMLDivCreator(
-  "#app",
+const frontpage = HTMLDivCreator(
+  "#frontpage",
   `
   <div>
     <h1>Hellou!</h1>
@@ -27,3 +27,5 @@ export default HTMLDivCreator(
   </div>
   `
 );
+
+export default frontpage;
