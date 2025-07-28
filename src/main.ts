@@ -1,6 +1,6 @@
-import header from "./header.ts";
-import frontpage from "./frontpage.ts";
-import bottombar from "./bottombar.ts";
+import header from "./components/header.ts";
+import frontpage from "./components/frontpage.ts";
+import bottombar from "./components/bottombar.ts";
 import { paddingAdjustor, HTMLPage } from "./functions.ts";
 
 const displayPage = (header: HTMLPage, body: HTMLPage, bottombar: HTMLPage) => {  

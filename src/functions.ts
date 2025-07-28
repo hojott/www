@@ -1,5 +1,6 @@
-export class HTMLPage {
-  public constructor(public id: string, public applyContent: (() => void)){} 
+export interface HTMLPage {
+  id: string,
+  applyContent: (() => void)
 }
 
 const HTMLDivApplier = (name: string, content: string) => {
@@ -7,10 +8,10 @@ const HTMLDivApplier = (name: string, content: string) => {
 };
 
 export const HTMLDivCreator = (id: string, content: string) => {
-  return new HTMLPage(
-    id,
-    () => HTMLDivApplier(id, content)
-  )
+  return ({
+    id: id,
+    applyContent: () => HTMLDivApplier(id, content)
+  })
 }
 
 
