@@ -12,17 +12,17 @@ const portfolioList: PortfolioListInterface = {
   glogicompiler: {
     name: "Glögicompiler",
     link: "https://github.com/hojott/glogicompiler",
-    description: "I tried to make my own compiler at the start of my freshman year. Probably my biggest mistake was trying to write it in zsh (yeah, not even bash :D). Still, I got pretty far with it, and at least I ended up doing a lot of shell scripting. I left it at the point where I was supposed to implement variable evaluation, which sounds easier than it actually is."
+    description: "I tried to make my own compiler at the start of my fresher year. My biggest mistake was probably trying to write it in zsh (yeah, not even bash :D). Still, I got pretty far with it, and at least I ended up doing a lot of shell scripting. I left it at the point where I was supposed to implement variable evaluation, which sounds easier than it actually is."
   },
   victoria2analyzer: {
     name: "victoria2analyzer",
     link: "https://github.com/hojott/victoria2-analyzer",
-    description: "Victoria 2 is a grand strategy game from around 2010 (by Paradox Interactive), set in the 1800–1900s. If you start a world war in it, you can rack up massive casualties in battles, but normally you never get to see how many died in total. This program parses the savegame file and counts the number of deaths. There’s also a Java implementation of something similar, but I couldn’t get it to work on Linux :D The coolest part of this is probably the parser, because the actual save files have no real format and are an absolute nightmare to go through.",
+    description: "Victoria 2 is a grand strategy game from around 2010 by Paradox Interactive, set in the 1800–1900s. If you start a world war in it, you can rack up massive casualties in battles, but normally you never get to see how many died in total. This program parses the savegame file and counts the number of deaths. There exists a Java implementation of something similar, but I couldn’t get it to work on Linux :D The coolest part of this is probably the parser, because the actual save files have no actual format and are an absolute nightmare to go through.",
   },
   kjyrtjbot: {
     name: "kjyrtj-bot",
     link: "https://github.com/hojott/kjyrtj_bot",
-    description: "KJYR (the freshman cruise) is Kumpula’s most anticipated event (right after Wappuhoplop). This is just a simple Telegram bot that responds to commands with the number of days left until the cruise. I included it because it’s one of the few programs I actually wrote to completion. Eventually, someone else had their own superior kjyrtj-bot made n years ago. Still, mine was in use for like 1 or 2 days."
+    description: "KJYR, the fresher cruise, is Kumpula’s most anticipated event (right after Wappuhoplop). This is just a simple Telegram bot that responds to commands with the number of days left until the cruise. I included it because it’s one of the few programs I actually wrote to completion. Eventually, someone with their own superior kjyrtj-bot made n years ago showed up, and mine was depracated. Still, mine was in use for like 1 or 2 days."
   },
   adventofcode: {
     name: "Advent-of-Code",
@@ -32,7 +32,7 @@ const portfolioList: PortfolioListInterface = {
   www: {
     name: "www",
     link: "https://github.com/hojott/www",
-    description: "My website: www.kussi.fi! Nothing too fancy since I hate web development. There’s also a pile of branches there that I never finished."
+    description: "My website: www.kussi.fi! Nothing too fancy since I hate web development. There’s also a pile of branches in Github that I never finished."
   },
   courses: {
     name: "tira, ohtu, fullstak2007, webtietokanta, ...",
@@ -57,7 +57,7 @@ const portfolioList: PortfolioListInterface = {
   poppi_downloader: {
     name: "poppi_downloader",
     link: "https://gitlab.paivola.fi/smarttin/poppi_downloader",
-    description: "Downloads a big batch of music using yt-dlp, grabbing the links from another site. Has things like comment parsing to avoid injection attacks. This was meant for Päivölä’s “poppi” tradition, where on the morning of graduation people blast music from computers all around the building. I left it a bit unfinished since I couldn’t find the error code docs for yt-dlp :D"
+    description: "Downloads a big batch of music using yt-dlp, grabbing the links from another site. Has things like comment parsing to avoid injection attacks. This was meant for Päivölä’s “poppi” tradition, where on the morning of finals people blast music from computers all around the building. I left it a bit unfinished since I couldn’t find the error code docs for yt-dlp :D"
   },
   escapingfame: {
     name: "Escaping Fame",
