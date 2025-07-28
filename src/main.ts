@@ -1,12 +1,12 @@
-import header from "./components/header.ts";
+import topbar from "./components/topbar.ts";
 import frontpage from "./components/frontpage.ts";
 import portfolio from "./components/portfolio.ts"
 import bottombar from "./components/bottombar.ts";
 import { paddingAdjustor, HTMLPage } from "./functions.ts";
 
-const displayPage = (header: HTMLPage, body: HTMLPage, bottombar: HTMLPage) => {  
-  header.applyContent();
-  document.querySelector<HTMLDivElement>(header.id)!.style.display="initial";
+const displayPage = (topbar: HTMLPage, body: HTMLPage, bottombar: HTMLPage) => {  
+  topbar.applyContent();
+  document.querySelector<HTMLDivElement>(topbar.id)!.style.display="initial";
   body.applyContent();
   document.querySelector<HTMLDivElement>(body.id)!.style.display="initial";
   bottombar.applyContent();
@@ -21,13 +21,13 @@ const main = () => {
   switch (page) {
     case "/":
     case "/frontpage":
-      displayPage(header, frontpage, bottombar);
+      displayPage(topbar, frontpage, bottombar);
       break;
     case "/portfolio":
-      displayPage(header, portfolio, bottombar);
+      displayPage(topbar, portfolio, bottombar);
       break;
     default:
-      displayPage(header, frontpage, bottombar);
+      displayPage(topbar, frontpage, bottombar);
       break;
   }
 }
