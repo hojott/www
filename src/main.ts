@@ -1,5 +1,6 @@
 import header from "./components/header.ts";
 import frontpage from "./components/frontpage.ts";
+import portfolio from "./components/portfolio.ts"
 import bottombar from "./components/bottombar.ts";
 import { paddingAdjustor, HTMLPage } from "./functions.ts";
 
@@ -22,8 +23,8 @@ const main = () => {
     case "/frontpage":
       displayPage(header, frontpage, bottombar);
       break;
-    case "/test":
-      displayPage(header, header, header);
+    case "/portfolio":
+      displayPage(header, portfolio, bottombar);
       break;
     default:
       displayPage(header, frontpage, bottombar);
